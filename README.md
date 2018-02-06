@@ -14,11 +14,14 @@ $this->load->library('rajaongkir');
 ```
 ### Melakukan request
 ```php
-//Mendapatkan semua propinsi
+//Mendapatkan semua provinsi
 $provinces = $this->rajaongkir->province();
 
 //Mendapatkan semua kota
 $cities = $this->rajaongkir->city();
+
+//Mendapatkan kecamatan berdasarkan kota
+$subdistrict = $this->rajaongkir->subdistrict(151); // city_id = 151
 
 //Mendapatkan data ongkos kirim
 $cost = $this->rajaongkir->cost(501, 114, 1000, "jne");
