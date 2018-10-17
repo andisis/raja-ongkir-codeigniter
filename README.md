@@ -1,5 +1,5 @@
 # Raja Ongkir Library for CodeIgniter 3.x
-Merupakan library CodeIgniter untuk mengkonsumsi API dari [RajaOngkir](http://rajaongkir.com).
+Library CodeIgniter untuk mengkonsumsi API dari [RajaOngkir](http://rajaongkir.com).
 Library ini adalah update dari library milik agan [hok00age](https://github.com/hok00age/rajaongkir-codeigniter) yang sudah lama tidak di update. Library ini dapat digunakan untuk semua tipe Akun (starter, basic dan pro).
 
 
